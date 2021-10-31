@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul,
+ol {
+  margin: 0%;
+  padding: 0%;
+}
+li {
+  list-style: none;
+}
+#home {
+  background: linear-gradient(to right, #1383b5,  #1383b5);
+	margin-top: 0;
+  height: 100vh;
+}
+#home .container{
+  display:flex ;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.nav-logo{
+  border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+  width: 12rem;
+  height: 12rem;
+  
+border-radius: 50%;
+padding: 1rem;
+  display:grid ;
+  place-items: center;
+  margin-left: 350px;
+  margin-top: 30px;
+ 
+  
+}
+.nav-logo img{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50% ;
+  
+  
+}
+
+
+.box {
+ 
+  background-image: url("../pic/bookcover.jpg");
+  
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+ 
+ 
+  border-radius: 12px;
+  
+  width: 60vw;
+  height: 70vh;
+}
+.overlay{
+  
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+.heading {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: rgb(24, 22, 22);
+  font-weight: 100;
+  font-size: 50px;;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-card img {
+  border-radius: 50%;
+  margin-left: 1.5rem;
+  
+}
+.mybtn {
+ 
+  height: 5rem;
+  width: 200px;
+  
+  background-color: #1383b5;
+  color: rgb(19, 17, 18);
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  border-radius: 30px;
+ 
+  text-align: center;
+  transition: all 0.5s;
+  
+}
+.box-card1 .mybtn{
+  background-color: #1383b5 ;
+  color:rgb(14, 12, 12);
+  border-radius: 30px;
+  
+
+}
+.box-card {
+  margin-left: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mybtn:hover {
+  background-color: #1383b5 ;
+  color: rgb(10, 9, 9);
+  border: 2px solid rgb(7, 7, 7);
+}
+#form1 {
+  background: linear-gradient(to right,  #1383b5, #1383b5) ;
+
+  height: 130vh;
+}
+.formbox {
+  height: 100vh; 
+
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.formbox form  h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+
+  padding-bottom: 3rem;
+}
+.formbox form {
+  
+  
+  padding: 4rem;
+  border-radius: 20px;
+}
+.formgroup{
+  margin-top: 2rem;
+}
+.formgroup label{
+  font-size: 1.8rem;
+}
+.formgroup input,.formgroup select{
+border: none;
+background: none;
+outline: none;
+float: right;
+width: 200px;
+border-bottom:1px solid rgba(29, 29, 29, 0.877);
+font-size: 1.4rem;
+margin-left: 2rem;
+}
+.formgroup input::-webkit-input-placeholder,.formgroup select::-webkit-input-placeholder{
+    text-align: center;
+    font-size: 1.4rem;
+}
+option{
+  text-align: center;
+  font-size: 1.4rem;
+}
+.mybtnf,.formbox a{
+  border-radius: 3px  ;
+  background-color: rgb(14, 99, 209);
+  color: rgb(19, 19, 19);
+  height: 3.7rem;
+  float: right;
+  width: 200px;
+  align-items: center;
+ margin-top: 2rem;
+  border: none;
+  border-radius: 10px;
+}
+.formbox a{
+  font-size: 2rem;
+  text-transform: capitalize;
+margin-left: auto;
+}
+.formbox a:hover{
+  background: transparent;
+  border: rgb(255, 255, 255) solid 1px;
+  color: aliceblue;
+ 
+}
+

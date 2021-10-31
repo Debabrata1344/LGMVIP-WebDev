@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+
+body{
+  background:#1383b5;
+}
+.home-section{
+  position: relative;
+  background: #1383b5;
+  min-height: 100vh;
+  top: 0;
+  left: 118px;
+  width: calc(100% - 250px);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+.sidebar.open ~ .home-section{
+  left: 80px;
+  width: calc(100% - 80px);
+}
+.home-section .text{
+  display: inline-block;
+  color: #11101d;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 18px
+}
+
+#tab{
+  border: 1px solid #2b2b2c;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+}
+#tab tr{
+  border: #11101d solid 1px;
+}
+#tab th{
+  text-align: center;
+  text-transform: uppercase;
+}
+#tab th,#tab td{
+  border: 1px solid;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+#tab td{
+  text-align: center;
+  text-transform: uppercase;
+}
+.home-section{
+  margin-top: 0rem;
+}
+.home-section .container{
+  /* border: #11101d solid; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.home-section .container::-webkit-scrollbar{
+  display: none;
+}
+@media (max-width: 420px) {
+  .sidebar li .tooltip{
+    display: none;
+  }
+}
+table.dataTable {
+  margin-top: 3rem;
+}
